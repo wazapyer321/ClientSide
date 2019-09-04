@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+<meta charset="UTF-8">	
+<link href="./style.css" rel="style">
+<link href="./stylesheet.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+</head>	
+
+
+<body>
+<div class="Front">
+	<div class="Logo">
+		<img src="img/logo.png" style="width:200 px" style="high:300 px">
+	</div>
+	
+		<div class="Home1">
+			<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">Contact</a>
+		</div>
+		<div class="Home2">
+			<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">News</a>
+
+		</div>
+		<div class="Home3">
+			<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">Home</a>
+		</div>
+
+	<div class="box2">
+
+	<div class="box2a">
+		<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">Home</a>
+		<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">News</a>
+		<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/">Contact</a>
+	</div>
+
+
+	<div class="box2b">
+		<form action="">
+		Search :	<input type="text" name="textfield" placeholder="Enter search here" /> 
+					<a href="#" class="myButton">GO</a>
+
+		</form>
+	</div>
+
+	</div>
+
+
+	<div class="Button">
+		
+		<form action="">
+		<input id="textfield" name="textfield" type="text" placeholder="Email" />
+		<input type="password" name="password" placeholder="password" >
+		<input type="submit" value="Sign In">
+		<a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/" class="NotMember">Not a Member ?</a>
+		</form>
+		
+	</div>
+
+</div>
+
+
+
+
+<h2 class="w3-center">Movies</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/movie1.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie2.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie3.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie4.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie5.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie6.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie7.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie8.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie9.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie10.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie11.jpg" style="width:100% ;" style="height:100% ;">
+  <img class="mySlides" src="img/movie12.jpg" style="width:100% ;" style="height:100% ;">  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<div class="footer">¨
+This is the footer :-)
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+</body>
+
+
+
+
+</html>
